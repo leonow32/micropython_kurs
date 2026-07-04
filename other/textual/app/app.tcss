@@ -2,9 +2,9 @@
 # $warning: #FF0000;
 
 # Kreskowanie tła aplikacji
-Screen:first-child {
+# Screen:first-child {
     # hatch: right $surface-lighten-2;
-}
+# }
 
 # App {
 #     hatch: right $surface-lighten-2;
