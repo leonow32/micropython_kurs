@@ -1,15 +1,26 @@
+Screen {
+    padding: 1 2;
+}
+
+Header {
+    height: 1;
+}
+
 Grid {
     grid-size: 4 5;             # 4 kolumny, 5 wierszy
     grid-gutter: 1 2;
-    margin: 1;
+    height: auto;
+    # margin:  0 0 0;
 }
 
 Digits {
     width: 100%;
-    height: 5;
+    margin: 1 0 1 0;
+    padding: 1 2;
+    # height: 5;
     background: $boost;
-    text-align: center;
-    margin: 1;
+    text-align: right;
+    content-align-vertical: middle;
 }
 
 Button {
@@ -19,5 +30,8 @@ Button {
     &#number-0 {                # Dotyczny przycisku, który ma id number-0
         column-span: 2;
     }
-}
 
+    &.top-button {
+        background: $panel-darken-1;
+    }
+}
