@@ -31,7 +31,7 @@ Button {
         column-span: 2;
     }
 
-    &.top-button {
+    &.top {
         background: $panel-darken-1;
     }
 }
